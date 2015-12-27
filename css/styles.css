@@ -640,7 +640,10 @@ display: inherit;
 }
 
 
-
+.map{
+width: 300px;
+    height: 200px;
+}
 
 
 .descrition {

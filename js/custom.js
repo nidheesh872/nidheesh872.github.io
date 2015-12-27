@@ -102,6 +102,17 @@ var customScripts = {
         customScripts.slider();
         customScripts.owlSlider();
         customScripts.bannerHeight();
+        
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(11.95846, 75.46834),
+          zoom: 15,
+         // mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      
+    debugger;
+      google.maps.event.addDomListener(window, 'load', initialize);
     }
 }
 $('document').ready(function () {
