@@ -112,7 +112,7 @@ var customScripts = {
         var map = new google.maps.Map(mapCanvas, mapOptions)
       
     debugger;
-      google.maps.event.addDomListener(window, 'load', initialize);
+      //google.maps.event.addDomListener(window, 'load', initialize);
     }
 }
 $('document').ready(function () {
